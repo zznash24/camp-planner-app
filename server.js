@@ -96,7 +96,6 @@ app.route('/sign-up')
             //we need to make this an alert
             return res.json({ error: 'Email, password, first and last name are required' });
         }
-
         bcyrpt.hash(password, saltRounds, (err, hash) => {
             models.user.create({
                 useremail: email,

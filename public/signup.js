@@ -1,4 +1,4 @@
-const res = require("express/lib/response");
+// const res = require("express/lib/response");
 
 console.log('hello world')
 let signup = document.getElementById('signup-button');
